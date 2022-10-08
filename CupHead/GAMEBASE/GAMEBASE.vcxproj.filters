@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="WINDOW">
+      <UniqueIdentifier>{e1c3d663-c58e-4a52-b591-65afe22e44c1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DEBUG">
+      <UniqueIdentifier>{f652e144-6a56-4694-92e9-feb79ef598cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MATH">
+      <UniqueIdentifier>{f3122bdb-21d9-4510-8599-963706315d2a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="INPUT">
+      <UniqueIdentifier>{47e38abe-968e-43bb-84ac-0859bd96d96d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MEMORY">
+      <UniqueIdentifier>{f8067f4d-6538-446f-800d-467c85b24176}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GAMEMATH.h">
+      <Filter>MATH</Filter>
+    </ClInclude>
+    <ClInclude Include="GAMEWINDOW.h">
+      <Filter>WINDOW</Filter>
+    </ClInclude>
+    <ClInclude Include="Game_Time.h">
+      <Filter>MATH</Filter>
+    </ClInclude>
+    <ClInclude Include="Game_Debug.h">
+      <Filter>DEBUG</Filter>
+    </ClInclude>
+    <ClInclude Include="Game_Ptr.h">
+      <Filter>MEMORY</Filter>
+    </ClInclude>
+    <ClInclude Include="Game_Name.h" />
+    <ClInclude Include="Game_Io.h" />
+    <ClInclude Include="Game_String.h" />
+    <ClInclude Include="Game_Mgr.h" />
+    <ClInclude Include="Object_Mgr.h" />
+    <ClInclude Include="Game_Input.h">
+      <Filter>INPUT</Filter>
+    </ClInclude>
+    <ClInclude Include="Game_Sound.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="GAMEMATH.cpp">
+      <Filter>MATH</Filter>
+    </ClCompile>
+    <ClCompile Include="GAMEWINDOW.cpp">
+      <Filter>WINDOW</Filter>
+    </ClCompile>
+    <ClCompile Include="Game_Time.cpp">
+      <Filter>MATH</Filter>
+    </ClCompile>
+    <ClCompile Include="Game_Debug.cpp">
+      <Filter>DEBUG</Filter>
+    </ClCompile>
+    <ClCompile Include="Game_Ptr.cpp">
+      <Filter>MEMORY</Filter>
+    </ClCompile>
+    <ClCompile Include="Game_Name.cpp" />
+    <ClCompile Include="Game_Io.cpp" />
+    <ClCompile Include="Game_String.cpp" />
+    <ClCompile Include="Game_Input.cpp">
+      <Filter>INPUT</Filter>
+    </ClCompile>
+    <ClCompile Include="Game_Sound.cpp" />
+  </ItemGroup>
+</Project>

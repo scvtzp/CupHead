@@ -1,0 +1,226 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Game_Trans.cpp">
+      <Filter>OBJ\COM\SUB\TRANS</Filter>
+    </ClCompile>
+    <ClCompile Include="Game_Cam.cpp">
+      <Filter>OBJ\COM\SUB\CAM</Filter>
+    </ClCompile>
+    <ClCompile Include="Game_Renderer.cpp">
+      <Filter>OBJ\COM\SUB\RENDERER</Filter>
+    </ClCompile>
+    <ClCompile Include="Game_Sprite_Renderer.cpp">
+      <Filter>OBJ\COM\SUB\RENDERER</Filter>
+    </ClCompile>
+    <ClCompile Include="Game_Com.cpp">
+      <Filter>OBJ\COM</Filter>
+    </ClCompile>
+    <ClCompile Include="Game_Scene.cpp">
+      <Filter>OBJ</Filter>
+    </ClCompile>
+    <ClCompile Include="Game_Actor.cpp">
+      <Filter>OBJ</Filter>
+    </ClCompile>
+    <ClCompile Include="Game_Shader.cpp">
+      <Filter>RES\SHADER</Filter>
+    </ClCompile>
+    <ClCompile Include="Game_Pixel_Shader.cpp">
+      <Filter>RES\SHADER</Filter>
+    </ClCompile>
+    <ClCompile Include="Game_Vertex_Shader.cpp">
+      <Filter>RES\SHADER</Filter>
+    </ClCompile>
+    <ClCompile Include="Game_Texture.cpp">
+      <Filter>RES\SHADER\SHADERRES</Filter>
+    </ClCompile>
+    <ClCompile Include="Game_Sampler.cpp">
+      <Filter>RES\SHADER\SHADERRES</Filter>
+    </ClCompile>
+    <ClCompile Include="Game_Sprite.cpp">
+      <Filter>RES\SHADER\SHADERRES</Filter>
+    </ClCompile>
+    <ClCompile Include="Game_CBuffer.cpp">
+      <Filter>RES\SHADER\SHADERRES</Filter>
+    </ClCompile>
+    <ClCompile Include="Game_Virtual_Progress.cpp" />
+    <ClCompile Include="Game_Animation.cpp" />
+    <ClCompile Include="Game_Res.cpp">
+      <Filter>RES</Filter>
+    </ClCompile>
+    <ClCompile Include="Game_Rasterizer.cpp">
+      <Filter>RES\STATE</Filter>
+    </ClCompile>
+    <ClCompile Include="Game_DepthStencil.cpp">
+      <Filter>RES\STATE</Filter>
+    </ClCompile>
+    <ClCompile Include="Game_blend.cpp">
+      <Filter>RES\STATE</Filter>
+    </ClCompile>
+    <ClCompile Include="Game_VB_Buffer.cpp">
+      <Filter>RES\BUFFER</Filter>
+    </ClCompile>
+    <ClCompile Include="Game_IB_Buffer.cpp">
+      <Filter>RES\BUFFER</Filter>
+    </ClCompile>
+    <ClCompile Include="Game_Device_Buffer.cpp">
+      <Filter>RES\BUFFER</Filter>
+    </ClCompile>
+    <ClCompile Include="Game_Collision.cpp">
+      <Filter>OBJ\COM\SUB\COL</Filter>
+    </ClCompile>
+    <ClCompile Include="Game_Trans_Collision.cpp">
+      <Filter>OBJ\COM\SUB\TRANS</Filter>
+    </ClCompile>
+    <ClCompile Include="Game_Device.cpp">
+      <Filter>DEVICE</Filter>
+    </ClCompile>
+    <ClCompile Include="Game_Device_BLEND.cpp">
+      <Filter>DEVICE</Filter>
+    </ClCompile>
+    <ClCompile Include="Game_Device_DEPTH.cpp">
+      <Filter>DEVICE</Filter>
+    </ClCompile>
+    <ClCompile Include="Game_Device_MESH.cpp">
+      <Filter>DEVICE</Filter>
+    </ClCompile>
+    <ClCompile Include="Game_Device_RASTERIZER.cpp">
+      <Filter>DEVICE</Filter>
+    </ClCompile>
+    <ClCompile Include="Game_Device_SAMPLER.cpp">
+      <Filter>DEVICE</Filter>
+    </ClCompile>
+    <ClCompile Include="Game_Device_SHADER.cpp">
+      <Filter>DEVICE</Filter>
+    </ClCompile>
+    <ClCompile Include="Game_3D_Debug.cpp" />
+    <ClCompile Include="Game_Font.cpp">
+      <Filter>RES\Font</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="DEFVTXHEADER.h">
+      <Filter>RES\BUFFER</Filter>
+    </ClInclude>
+    <ClInclude Include="Game_Trans.h">
+      <Filter>OBJ\COM\SUB\TRANS</Filter>
+    </ClInclude>
+    <ClInclude Include="Game_Cam.h">
+      <Filter>OBJ\COM\SUB\CAM</Filter>
+    </ClInclude>
+    <ClInclude Include="Game_Renderer.h">
+      <Filter>OBJ\COM\SUB\RENDERER</Filter>
+    </ClInclude>
+    <ClInclude Include="Game_Sprite_Renderer.h">
+      <Filter>OBJ\COM\SUB\RENDERER</Filter>
+    </ClInclude>
+    <ClInclude Include="Game_Com.h">
+      <Filter>OBJ\COM</Filter>
+    </ClInclude>
+    <ClInclude Include="Game_Scene.h">
+      <Filter>OBJ</Filter>
+    </ClInclude>
+    <ClInclude Include="Game_Actor.h">
+      <Filter>OBJ</Filter>
+    </ClInclude>
+    <ClInclude Include="Game_Shader.h">
+      <Filter>RES\SHADER</Filter>
+    </ClInclude>
+    <ClInclude Include="Game_Pixel_Shader.h">
+      <Filter>RES\SHADER</Filter>
+    </ClInclude>
+    <ClInclude Include="Game_Vertex_Shader.h">
+      <Filter>RES\SHADER</Filter>
+    </ClInclude>
+    <ClInclude Include="Game_Texture.h">
+      <Filter>RES\SHADER\SHADERRES</Filter>
+    </ClInclude>
+    <ClInclude Include="Game_Sampler.h">
+      <Filter>RES\SHADER\SHADERRES</Filter>
+    </ClInclude>
+    <ClInclude Include="Game_Sprite.h">
+      <Filter>RES\SHADER\SHADERRES</Filter>
+    </ClInclude>
+    <ClInclude Include="Game_CBuffer.h">
+      <Filter>RES\SHADER\SHADERRES</Filter>
+    </ClInclude>
+    <ClInclude Include="Game_Virtual_Progress.h" />
+    <ClInclude Include="Game_Animation.h" />
+    <ClInclude Include="Game_Res.h">
+      <Filter>RES</Filter>
+    </ClInclude>
+    <ClInclude Include="Game_Rasterizer.h">
+      <Filter>RES\STATE</Filter>
+    </ClInclude>
+    <ClInclude Include="Game_DepthStencil.h">
+      <Filter>RES\STATE</Filter>
+    </ClInclude>
+    <ClInclude Include="Game_blend.h">
+      <Filter>RES\STATE</Filter>
+    </ClInclude>
+    <ClInclude Include="Game_VB_Buffer.h">
+      <Filter>RES\BUFFER</Filter>
+    </ClInclude>
+    <ClInclude Include="Game_IB_Buffer.h">
+      <Filter>RES\BUFFER</Filter>
+    </ClInclude>
+    <ClInclude Include="Game_Device_Buffer.h">
+      <Filter>RES\BUFFER</Filter>
+    </ClInclude>
+    <ClInclude Include="Game_Collision.h">
+      <Filter>OBJ\COM\SUB\COL</Filter>
+    </ClInclude>
+    <ClInclude Include="Game_Device.h">
+      <Filter>DEVICE</Filter>
+    </ClInclude>
+    <ClInclude Include="Game_3D_Debug.h" />
+    <ClInclude Include="Game_Font.h">
+      <Filter>RES\Font</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GAMELOGIC\Game_Header.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="RES">
+      <UniqueIdentifier>{2c3a12d7-2ce5-4950-a711-35f16904e300}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RES\BUFFER">
+      <UniqueIdentifier>{6e3dc2f2-04a7-4b8a-b7f9-5b0bde195ce1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RES\SHADER">
+      <UniqueIdentifier>{80d4b8d6-9d21-4061-b4bf-80745395e933}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DEVICE">
+      <UniqueIdentifier>{2e4eb49b-e5be-4400-8e3b-dda4ec75f323}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="OBJ">
+      <UniqueIdentifier>{0f71e1e2-3485-432f-8590-afe61a1c456b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RES\STATE">
+      <UniqueIdentifier>{55b1bdfe-2f2c-4283-891a-75c4233a7478}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RES\SHADER\SHADERRES">
+      <UniqueIdentifier>{26d196d0-97a1-4a0f-a418-97eb687ed5b5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="OBJ\COM">
+      <UniqueIdentifier>{c07605ee-b6f2-44c8-8621-e0269bbb27db}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="OBJ\COM\SUB">
+      <UniqueIdentifier>{88cb710b-0548-47db-b689-8698938eddf3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="OBJ\COM\SUB\TRANS">
+      <UniqueIdentifier>{a0ce3a70-3001-4f4c-8caf-2b31b74b3a72}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="OBJ\COM\SUB\CAM">
+      <UniqueIdentifier>{f87f538c-191d-4f55-9ce5-ec4355d8fa98}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="OBJ\COM\SUB\RENDERER">
+      <UniqueIdentifier>{f53b1eec-be35-4d96-8c75-c1a5d61b19b8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="OBJ\COM\SUB\COL">
+      <UniqueIdentifier>{5e3252a0-5d5c-466e-b4b6-c502cca5be7f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RES\Font">
+      <UniqueIdentifier>{62a68564-5bc5-4c19-932e-89b2cd18b869}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

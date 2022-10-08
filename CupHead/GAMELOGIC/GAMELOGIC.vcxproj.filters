@@ -1,0 +1,213 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="LOGIC_Value.cpp" />
+    <ClCompile Include="Game_Free_Object.cpp">
+      <Filter>Free</Filter>
+    </ClCompile>
+    <ClCompile Include="Game_FreeCam.cpp">
+      <Filter>Free</Filter>
+    </ClCompile>
+    <ClCompile Include="Fade_Com.cpp" />
+    <ClCompile Include="HGAMEPLAYER.cpp">
+      <Filter>Player\Test</Filter>
+    </ClCompile>
+    <ClCompile Include="Player_Map.cpp">
+      <Filter>Player\Map</Filter>
+    </ClCompile>
+    <ClCompile Include="Player_Stage.cpp">
+      <Filter>Player\Stage</Filter>
+    </ClCompile>
+    <ClCompile Include="Slime.cpp">
+      <Filter>Monster\Slime</Filter>
+    </ClCompile>
+    <ClCompile Include="Peashot.cpp">
+      <Filter>Player\Weapon\Player_Stage\Peashot</Filter>
+    </ClCompile>
+    <ClCompile Include="Ghost_B.cpp">
+      <Filter>Monster\Ghost_B</Filter>
+    </ClCompile>
+    <ClCompile Include="Monkey.cpp">
+      <Filter>Monster\Monkey</Filter>
+    </ClCompile>
+    <ClCompile Include="Monkey_Card.cpp">
+      <Filter>Monster\Monkey\Monkey_Card</Filter>
+    </ClCompile>
+    <ClCompile Include="Monkey_Bullet.cpp">
+      <Filter>Player\Weapon\Monster_Weapon\Monkey_Bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="Player_Sky.cpp">
+      <Filter>Player\Sky</Filter>
+    </ClCompile>
+    <ClCompile Include="Sky_Bomb.cpp">
+      <Filter>Player\Weapon\Player_Sky\Sky_Bomb_EX</Filter>
+    </ClCompile>
+    <ClCompile Include="Player_UI.cpp">
+      <Filter>Player\Inventory\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Map_Entrance.cpp">
+      <Filter>Map_Entrance</Filter>
+    </ClCompile>
+    <ClCompile Include="Sky_PeaShot.cpp">
+      <Filter>Player\Weapon\Player_Sky\Sky_PeaShot</Filter>
+    </ClCompile>
+    <ClCompile Include="Spread.cpp">
+      <Filter>Player\Weapon\Player_Stage\Spread</Filter>
+    </ClCompile>
+    <ClCompile Include="Inventory.cpp">
+      <Filter>Player\Inventory</Filter>
+    </ClCompile>
+    <ClCompile Include="Bouncer.cpp">
+      <Filter>Player\Weapon\Player_Stage\Bouncer</Filter>
+    </ClCompile>
+    <ClCompile Include="Charge.cpp">
+      <Filter>Player\Weapon\Player_Stage\Charge</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="LOGIC_Value.h" />
+    <ClInclude Include="Game_Logic.h" />
+    <ClInclude Include="Game_Free_Object.h">
+      <Filter>Free</Filter>
+    </ClInclude>
+    <ClInclude Include="Game_FreeCam.h">
+      <Filter>Free</Filter>
+    </ClInclude>
+    <ClInclude Include="Logic_Enum.h" />
+    <ClInclude Include="Fade_Com.h" />
+    <ClInclude Include="HGAMEPLAYER.h">
+      <Filter>Player\Test</Filter>
+    </ClInclude>
+    <ClInclude Include="Player_Map.h">
+      <Filter>Player\Map</Filter>
+    </ClInclude>
+    <ClInclude Include="Player_Stage.h">
+      <Filter>Player\Stage</Filter>
+    </ClInclude>
+    <ClInclude Include="Slime.h">
+      <Filter>Monster\Slime</Filter>
+    </ClInclude>
+    <ClInclude Include="Peashot.h">
+      <Filter>Player\Weapon\Player_Stage\Peashot</Filter>
+    </ClInclude>
+    <ClInclude Include="Ghost_B.h">
+      <Filter>Monster\Ghost_B</Filter>
+    </ClInclude>
+    <ClInclude Include="Monkey.h">
+      <Filter>Monster\Monkey</Filter>
+    </ClInclude>
+    <ClInclude Include="Monkey_Card.h">
+      <Filter>Monster\Monkey\Monkey_Card</Filter>
+    </ClInclude>
+    <ClInclude Include="Monkey_Bullet.h">
+      <Filter>Player\Weapon\Monster_Weapon\Monkey_Bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="Player_Sky.h">
+      <Filter>Player\Sky</Filter>
+    </ClInclude>
+    <ClInclude Include="Sky_Bomb.h">
+      <Filter>Player\Weapon\Player_Sky\Sky_Bomb_EX</Filter>
+    </ClInclude>
+    <ClInclude Include="Player_UI.h">
+      <Filter>Player\Inventory\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Map_Entrance.h">
+      <Filter>Map_Entrance</Filter>
+    </ClInclude>
+    <ClInclude Include="Sky_PeaShot.h">
+      <Filter>Player\Weapon\Player_Sky\Sky_PeaShot</Filter>
+    </ClInclude>
+    <ClInclude Include="Spread.h">
+      <Filter>Player\Weapon\Player_Stage\Spread</Filter>
+    </ClInclude>
+    <ClInclude Include="Inventory.h">
+      <Filter>Player\Inventory</Filter>
+    </ClInclude>
+    <ClInclude Include="Bouncer.h">
+      <Filter>Player\Weapon\Player_Stage\Bouncer</Filter>
+    </ClInclude>
+    <ClInclude Include="Charge.h">
+      <Filter>Player\Weapon\Player_Stage\Charge</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Player">
+      <UniqueIdentifier>{09a90c22-6f97-43ed-9422-74c789623a0e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Free">
+      <UniqueIdentifier>{c7236f7f-4e04-419e-bc1e-2f9738563ba0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Monster">
+      <UniqueIdentifier>{bb6d7552-3262-4eef-962e-c36b3aa321de}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Player\Test">
+      <UniqueIdentifier>{704642b8-bf00-46ed-84b0-21e8ac8a4b14}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Player\Map">
+      <UniqueIdentifier>{08b40e20-03a1-4dd3-b920-9d09bf097bc3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Player\Stage">
+      <UniqueIdentifier>{abae44c9-0e94-4fc6-9ee1-23d402e1b63f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Monster\Ghost_B">
+      <UniqueIdentifier>{0e0991df-e7f3-4da9-bb9e-33d816d26a75}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Monster\Monkey">
+      <UniqueIdentifier>{d66d8760-9713-4df5-898d-cf2ebe2cbc58}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Monster\Slime">
+      <UniqueIdentifier>{190a49dc-4b52-45d4-9f6b-ac3d0854e0f0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Monster\Monkey\Monkey_Card">
+      <UniqueIdentifier>{d62b036a-abd7-4849-95be-40d9deb5c5ef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Player\Sky">
+      <UniqueIdentifier>{b50d8213-7efb-47cc-911d-5d4d3bae19d2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Map_Entrance">
+      <UniqueIdentifier>{11f156f5-e16e-45fa-bb3f-13ce2bd091ef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Player\Inventory">
+      <UniqueIdentifier>{c6d715a3-46de-489d-8e14-a1bcb8922239}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Player\Inventory\UI">
+      <UniqueIdentifier>{f1127890-5bf8-4e2c-8638-ba5035af1a6d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Player\Weapon">
+      <UniqueIdentifier>{7bf101f2-6618-40ae-a0b3-d77bba74621f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Player\Weapon\Monster_Weapon">
+      <UniqueIdentifier>{7c499fda-94f4-4def-9af7-cb7e51042192}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Player\Weapon\Monster_Weapon\Monkey_Bullet">
+      <UniqueIdentifier>{2b76fe8e-ede6-4443-9472-cf36c6ec08cd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Player\Weapon\Player_Sky">
+      <UniqueIdentifier>{083a5b56-a1a1-4b6c-b116-1aab27d2fc6a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Player\Weapon\Player_Sky\Sky_PeaShot">
+      <UniqueIdentifier>{f3331fbe-047d-43a9-98c6-5e7f232433fc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Player\Weapon\Player_Sky\Sky_Bomb">
+      <UniqueIdentifier>{abea6226-5dd9-45e8-a86f-0d692e510afd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Player\Weapon\Player_Sky\Sky_Bomb_EX">
+      <UniqueIdentifier>{24830de5-4684-45de-b292-726158bf0ae1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Player\Weapon\Player_Stage">
+      <UniqueIdentifier>{6d91206d-8e11-4b76-a026-5e9bde4b2fce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Player\Weapon\Player_Stage\Peashot">
+      <UniqueIdentifier>{af3e87e7-3634-41a2-9374-31e8ab97fab0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Player\Weapon\Player_Stage\Spread">
+      <UniqueIdentifier>{661c20ce-6068-4628-810c-db5a1793da8e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Player\Weapon\Player_Stage\Bouncer">
+      <UniqueIdentifier>{f7715805-2a89-4b4a-ad3c-0ee9caeb4c27}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Player\Weapon\Player_Stage\Charge">
+      <UniqueIdentifier>{dd13f402-a9cd-4d74-9352-ab6d5c89b6d3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

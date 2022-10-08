@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="MainFile.cpp" />
+    <ClCompile Include="Scene_Test.cpp">
+      <Filter>Scene\00.Test</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene_Title.cpp">
+      <Filter>Scene\01. Title</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene_WorldMap.cpp">
+      <Filter>Scene\02. WorldMap</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene_Slime.cpp">
+      <Filter>Scene\03. Stage_Slime</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene_Ghost.cpp">
+      <Filter>Scene\04. Stage_Ghost</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene_Monkey.cpp">
+      <Filter>Scene\05. Stage_Monkey</Filter>
+    </ClCompile>
+    <ClCompile Include="Shop.cpp">
+      <Filter>Scene\06. Shop</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Scene_Test.h">
+      <Filter>Scene\00.Test</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene_Title.h">
+      <Filter>Scene\01. Title</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene_WorldMap.h">
+      <Filter>Scene\02. WorldMap</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene_Slime.h">
+      <Filter>Scene\03. Stage_Slime</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene_Ghost.h">
+      <Filter>Scene\04. Stage_Ghost</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene_Monkey.h">
+      <Filter>Scene\05. Stage_Monkey</Filter>
+    </ClInclude>
+    <ClInclude Include="Shop.h">
+      <Filter>Scene\06. Shop</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Scene">
+      <UniqueIdentifier>{de75a488-32e0-42a9-ac8f-195120dddc00}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\00.Test">
+      <UniqueIdentifier>{92efda3f-521b-4d99-be6b-2cb1b84760c6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\01. Title">
+      <UniqueIdentifier>{561430e1-3c41-4c0f-b9e7-c22e47659ffb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\02. WorldMap">
+      <UniqueIdentifier>{8aeb4fe2-488a-4998-a416-96ea0344adf3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\03. Stage_Slime">
+      <UniqueIdentifier>{fed9c48b-0e8b-45e8-8e80-39b7198a4971}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\04. Stage_Ghost">
+      <UniqueIdentifier>{41a2af61-7844-4182-b471-b06d2135da64}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\05. Stage_Monkey">
+      <UniqueIdentifier>{0c0afb62-bc9c-48e8-9da4-8bc209531514}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\06. Shop">
+      <UniqueIdentifier>{907a2aa1-af39-4a87-99fb-18b350684350}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
